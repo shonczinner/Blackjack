@@ -8,7 +8,7 @@ https://sczinner.shinyapps.io/BlackjackTrainer/ is a similar implementation of t
 
 The computed strategies will be in the following format,
 
-![Split matrix shown here.](https://github.com/yourusername/Blackjack/raw/main/images/split_matrix.png)
+![Split matrix shown here.](https://github.com/shonczinner/Blackjack/raw/main/images/split_matrix.png)
 
 The column names are the dealers shown hand. The row names are players hand. The hand format is the player's score counting all aces as 1, and then 0 if your hand contains an ace which could count as 11. Values of 'TRUE' mean the player should split if possible for the corresponding hand. 
 
