@@ -1,4 +1,4 @@
-# Project Name
+# Blackjack
 
 This project contains files concerning the game Blackjack. BasicStrategyTrainer.py will show you some cards and a dealer's cardand ask you which action you should take according to the computed strategy. BlackjackAnalysis.py computes the strategy regarding hitting, standing, doubling down, and splitting as well as the expected value and variance of Blackjack assuming an infinite deck (drawing with replacement). BlackjackGame.py allows you to play Blackjack in the console. CardCountingTrainer.py shows some cards to you and asks you what the count would be. ComputeEffectOfRemoval.py computes the expected value of Blackjack with 1 card of 52 removed and is used to derive card counting.
 
@@ -6,9 +6,9 @@ Computed strategies might vary from other sources (for example due to simpifying
 
 https://sczinner.shinyapps.io/BlackjackTrainer/ is a similar implementation of the game and training apps above in R with a GUI.
 
-The computed strategies will be in the following format (split matrix shown here),
+The computed strategies will be in the following format,
 
-https://github.com/yourusername/Blackjack/raw/main/images/split_matrix.png
+![Split matrix shown here.](https://github.com/yourusername/Blackjack/raw/main/images/split_matrix.png)
 
 The column names are the dealers shown hand. The row names are players hand. The hand format is the player's score counting all aces as 1, and then 0 if your hand contains an ace which could count as 11. Values of 'TRUE' mean the player should split if possible for the corresponding hand. 
 
