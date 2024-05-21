@@ -10,7 +10,7 @@ The computed strategies will be in the following format,
 
 ![Split matrix shown here.](https://raw.githubusercontent.com/shonczinner/Blackjack/main/images/split_matrix.JPG)
 
-The column names are the dealers shown hand. The row names are players hand. The hand format is the player's score counting all aces as 1, and then 0 if your hand contains an ace which could count as 11. Values of 'TRUE' mean the player should split if possible for the corresponding hand. 
+The column names are the dealers shown hand. The row names are players hand. The hand format is the player's score counting all aces as 1, and then 0 if your hand contains an ace which could count as 11. In this example, values of 'TRUE' mean the player should split if possible for the corresponding hand. 
 
 ## Table of Contents
 
