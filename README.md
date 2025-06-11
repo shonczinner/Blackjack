@@ -4,6 +4,14 @@ This project contains files concerning the game Blackjack. BasicStrategyTrainer.
 
 Computed strategies might vary from other sources (for example due to simpifying the game by drawing cards with replacement or variations in game rules) but in these cases, the expected value differences would be small regardless.
 
+Generation of basic strategy largely follows the following source,
+Roger R. Baldwin, Wilbert E. Cantey, Herbert Maisel and James P. McDermott, "The Optimum Strategy in Blackjack", September 1956
+
+
+Generation of "Effect-Of-Removals" (EORs) which is the basis of card-counting follows the following source,
+Peter A. Griffin, "The Theory of Blackjack", 1979
+
+
 https://sczinner.shinyapps.io/BlackjackTrainer/ is a similar implementation of the game and training apps above in R with a GUI.
 
 The computed strategies will be in the following format,
